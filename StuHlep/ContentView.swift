@@ -1,24 +1,33 @@
-//
-//  ContentView.swift
-//  StuHlep
-//
-//  Created by 1 on 5/5/2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            DiscussionView()
+                .tabItem {
+                    Label("Home", systemImage: "house.fill")
+                }
+
+            StudyGroupsView()
+                .tabItem {
+                    Label("Study Groups", systemImage: "sparkles")
+                }
+
+            TipsResourcesView()
+                .tabItem {
+                    Label("Tips", systemImage: "bell.fill")
+                }
+
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.fill")
+                }
         }
-        .padding()
+        .tint(.purple)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(AppData())
 }

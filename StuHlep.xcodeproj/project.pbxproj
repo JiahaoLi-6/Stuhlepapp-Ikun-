@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6339F5002FABA0F10088901F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6339F4F72FABA0F10088901F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		63908D9D2FA9C317004C57F9 /* StuHlep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuHlep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6339F4F62FABA0F10088901F /* StuHlep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuHlep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6339F4F72FABA0F10088901F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +37,10 @@
 		63908D942FA9C317004C57F9 = {
 			isa = PBXGroup;
 			children = (
+				6339F4F72FABA0F10088901F /* Assets.xcassets */,
 				63908D9F2FA9C317004C57F9 /* StuHlep */,
-				63908D9E2FA9C317004C57F9 /* Products */,
+				6339F4F62FABA0F10088901F /* StuHlep.app */,
 			);
-			sourceTree = "<group>";
-		};
-		63908D9E2FA9C317004C57F9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63908D9D2FA9C317004C57F9 /* StuHlep.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +65,7 @@
 			packageProductDependencies = (
 			);
 			productName = StuHlep;
-			productReference = 63908D9D2FA9C317004C57F9 /* StuHlep.app */;
+			productReference = 6339F4F62FABA0F10088901F /* StuHlep.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +93,7 @@
 			mainGroup = 63908D942FA9C317004C57F9;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 63908D9E2FA9C317004C57F9 /* Products */;
+			productRefGroup = 63908D942FA9C317004C57F9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +107,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6339F5002FABA0F10088901F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
